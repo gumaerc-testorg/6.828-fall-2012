@@ -1,5 +1,8 @@
 ---
 content_type: page
+learning_resource_types:
+- Labs
+ocw_type: CourseSection
 title: Labs
 uid: 8d5d8f8f-653f-ccaf-152d-8064474c5fe2
 ---

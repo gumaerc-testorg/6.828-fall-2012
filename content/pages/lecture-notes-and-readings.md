@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Lecture Notes and Readings
 uid: 918acd06-aca5-1088-ed18-7978df900929
 ---
