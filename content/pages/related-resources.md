@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This section provides a list of useful references for those interested
+  in learning more about the topics covered in the course.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Related Resources
@@ -59,7 +61,7 @@ PC Hardware Programming
     *   [BIOS Services and Software Interrupts](http://www.pcguide.com/ref/mbsys/bios/funcServices-c.html), Roger Morgan, 1997.
     *   ["El Torito" Bootable CD-ROM Format Specification](http://support.microsoft.com/kb/167685), Phoenix / IBM®, January 1995.
 *   VGA Display - kern / console.c
-    *   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[VESA BIOS Extension (VBE) 3.0 (PDF)](http://www.cs.utexas.edu/~dahlin/Classes/UGOS/reading/vbe3.pdf), [Video Electronics Standards Association](http://www.vesa.org/), September 1998.
+    *   [VESA BIOS Extension (VBE) 3.0 (PDF)](http://www.cs.utexas.edu/~dahlin/Classes/UGOS/reading/vbe3.pdf), [Video Electronics Standards Association](http://www.vesa.org/), September 1998.
     *   [VGADOC](http://read.seas.harvard.edu/cs261/2011/references.html), Finn Thøgersen, 2000.
     *   [Free VGA Project](http://www.osdever.net/FreeVGA/home.htm), J. D. Neal, 1998.
 *   Keyboard and Mouse - kern / console.c
@@ -85,11 +87,11 @@ PC Hardware Programming
     *   [Interfacing the Standard Parallel Port](http://pascal.hansotten.com/uploads/electronics/parallel.pdf), Craig Peacock, August 2001.
 *   IDE Hard Drive Controller - fs / ide.c
     *   AT Attachment with Packet Interface - 6 (working draft), ANSI, December 2001.
-    *   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Programming Interface for Bus Master IDE Controller (PDF)](http://www.bswd.com/idems100.pdf), Brad Hosler, Intel®, May 1994.
+    *   [Programming Interface for Bus Master IDE Controller (PDF)](http://www.bswd.com/idems100.pdf), Brad Hosler, Intel®, May 1994.
     *   [The Guide to ATA / ATAPI documentation](http://www.cs.utexas.edu/~dahlin/Classes/UGOS/reading/ide.html), Constantine Sapuntzakis, January 2002.
 *   Sound Cards (not supported in 6.828 kernel, but you're welcome to do it as a challenge problem!)
     *   Signal Processing using Sound Cards
-    *   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Sound Blaster Series Hardware Programming Guide (PDF)](http://pdos.csail.mit.edu/6.828/2008/readings/hardware/SoundBlaster.pdf), Creative Technology, 1996.
+    *   [Sound Blaster Series Hardware Programming Guide (PDF)](http://pdos.csail.mit.edu/6.828/2008/readings/hardware/SoundBlaster.pdf), Creative Technology, 1996.
     *   8237A High Performance Programmable DMA Controller, Intel®, September 1993.
     *   [Sound Blaster 16 Programming Document](http://homepages.cae.wisc.edu/~brodskye/sb16doc/sb16doc.html), Ethan Brodsky, June 1997.
 *   E100 Network Interface Card

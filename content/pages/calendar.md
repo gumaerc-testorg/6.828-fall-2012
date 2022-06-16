@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This section provides the schedule of lecture topics, class activities,
+  quizzes, and key dates for assignments.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Calendar
