@@ -1,5 +1,11 @@
 ---
 content_type: page
+description: This section provides details on the team project of the course, including
+  the schedule, list of deliverables, submission repositories, and potential project
+  ideas.
+learning_resource_types:
+- Projects
+ocw_type: CourseSection
 title: Projects
 uid: 37e96a7a-4861-7be7-ac59-f8713af3b5e6
 ---
@@ -36,13 +42,13 @@ Ideas
 Here's a list of ideas to get you started thinking—but you should feel free to pursue your own ideas.
 
 *   Build a virtual machine monitor that can run multiple guests (for example, multiple instances of JOS), using x86 VM support.
-*   Do something useful with the x86 Trusted Execution Technology. For example, run applications without having to trust the kernel. ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Here (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-51.pdf) is a recent paper on this topic.
+*   Do something useful with the x86 Trusted Execution Technology. For example, run applications without having to trust the kernel. [Here (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-51.pdf) is a recent paper on this topic.
 *   Fix xv6 logging to support concurrent transactions, and generally have higher performance, perhaps taking ideas from Linux EXT3.
-*   Use file system ideas from ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Soft updates (PDF)](http://www.ece.cmu.edu/~ganger/papers/osdi94.pdf), WAFL, ZFS, or another advanced file system.
+*   Use file system ideas from [Soft updates (PDF)](http://www.ece.cmu.edu/~ganger/papers/osdi94.pdf), WAFL, ZFS, or another advanced file system.
 *   Add snapshots to a file system, so that a user can look at the file system as it appeared at various points in the past. You'll probably want to use some kind of copy-on-write for disk storage to keep space consumption down.
-*   Implement ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[capabilities (PDF)](http://pdos.csail.mit.edu/6.828/2012/readings/mazieres-hotos6.pdf) to provide fine-grained control over what privileges processes have.
-*   Build a ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[distributed shared memory (PDF)](http://www.cise.ufl.edu/~nemo/cop5615/chow/ch7.pdf) (DSM) system, so that you can run multi-threaded shared memory parallel programs on a cluster of machines, using paging to give the appearance of real shared memory. When a thread tries to access a page that's on another machine, the page fault will give the DSM system a chance to fetch the page over the network from whatever machine currently stores.
-*   Layer software ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[RAID-5 (PDF)](http://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) over an array of disks, to increase fault tolerance and performance.
+*   Implement [capabilities (PDF)](http://pdos.csail.mit.edu/6.828/2012/readings/mazieres-hotos6.pdf) to provide fine-grained control over what privileges processes have.
+*   Build a [distributed shared memory (PDF)](http://www.cise.ufl.edu/~nemo/cop5615/chow/ch7.pdf) (DSM) system, so that you can run multi-threaded shared memory parallel programs on a cluster of machines, using paging to give the appearance of real shared memory. When a thread tries to access a page that's on another machine, the page fault will give the DSM system a chance to fetch the page over the network from whatever machine currently stores.
+*   Layer software [RAID-5 (PDF)](http://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) over an array of disks, to increase fault tolerance and performance.
 *   Allow processes to migrate from one machine to another over the network. You'll need to do something about the various pieces of a process's state, such as file descriptors in xv6.
 *   Implement paging to disk in xv6 or JOS, so that processes can be bigger than RAM. Extend your pager with swapping.
 *   Implement mmap() of files for JOS or xv6.
@@ -55,6 +61,6 @@ Here's a list of ideas to get you started thinking—but you should feel free to
 *   Make JOS or xv6 run on 64-bit CPUs. This includes redoing the virtual memory system to use 4–level pages tables. See reference page for some documentation.
 *   Port JOS or xv6 to a different microprocessor. The [osdev wiki](http://wiki.osdev.org/Main_Page) may be helpful.
 *   A window system for xv6 or JOS, including graphics driver and mouse. See reference page for some documentation.
-*   Implement ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[dune (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-117.pdf) to export privileged hardware instructions to user-space applications in JOS or xv6.
+*   Implement [dune (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-117.pdf) to export privileged hardware instructions to user-space applications in JOS or xv6.
 *   The linux kernel uses read copy update to be able to perform read operations without holding locks. Explore RCU by implementing it in xv6 and use it to support a name cache with lock-free reads
 *   Intel recently announced for its upcoming processors. Implement support for Intel's Transactional Synchronization Extensions in the QEMU emulator. A follow-on project would be to explore the use of Intel TSX primitives in writing concurrent software, such as extending a small multi-core operating system (based on 6.828's xv6) to use transactional memory.
