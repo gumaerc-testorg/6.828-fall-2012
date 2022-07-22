@@ -6,6 +6,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/649aaab5c4c06b5e7ff0
 file_type: application/pdf
 learning_resource_types:
 - Assignments
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
@@ -15,4 +16,3 @@ title: Operating System Engineering, Assignment 4
 uid: 649aaab5-c4c0-6b5e-7ff0-ab574dd2fef1
 ---
 This file contains the information regarding Operating System Engineering, Assignment 4.
-

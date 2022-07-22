@@ -5,6 +5,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/1fa5a4ce8a9761deb154
 file_type: text/x-csrc
 learning_resource_types:
 - Assignments
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
@@ -14,4 +15,3 @@ title: uthread.c
 uid: 1fa5a4ce-8a97-61de-b154-ab3fcc584e54
 ---
 This is the special file regarding uthread c.
-

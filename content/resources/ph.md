@@ -5,6 +5,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/c64423ee4f7cb70c4f77
 file_type: text/x-csrc
 learning_resource_types:
 - Assignments
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
@@ -14,4 +15,3 @@ title: ph.c
 uid: c64423ee-4f7c-b70c-4f77-88675a5320c2
 ---
 This is the special file regarding ph c.
-

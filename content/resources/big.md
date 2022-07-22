@@ -5,6 +5,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/c53b9870eba91d89fe3a
 file_type: text/x-csrc
 learning_resource_types:
 - Assignments
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
@@ -14,4 +15,3 @@ title: big.c
 uid: c53b9870-eba9-1d89-fe3a-3e125e62d6b2
 ---
 This is the special file regarding big c.
-

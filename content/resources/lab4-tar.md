@@ -5,6 +5,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/ac0415d7b04dfa0e4cae
 file_type: application/x-tar
 learning_resource_types:
 - Labs
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Labs
 parent_type: CourseSection
@@ -14,4 +15,3 @@ title: lab4.tar.gz
 uid: ac0415d7-b04d-fa0e-4cae-d03ddf95e45d
 ---
 This is the special file regarding Pointers c.
-

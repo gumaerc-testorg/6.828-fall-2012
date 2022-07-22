@@ -5,6 +5,7 @@ file: /courses/6-828-operating-system-engineering-fall-2012/09f4f75948eba76842f0
 file_type: application/x-tar
 learning_resource_types:
 - Labs
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Labs
 parent_type: CourseSection
@@ -14,4 +15,3 @@ title: lab3.tar.gz
 uid: 09f4f759-48eb-a768-42f0-368be826d84c
 ---
 This is the special file regarding lab 3.
-
