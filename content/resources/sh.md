@@ -2,6 +2,7 @@
 content_type: resource
 description: This is the special file regarding sh.c.
 file: /courses/6-828-operating-system-engineering-fall-2012/cb5a68a01e691f39e33065be15d7522f_sh.c
+file_size: 6124
 file_type: text/x-csrc
 learning_resource_types:
 - Assignments

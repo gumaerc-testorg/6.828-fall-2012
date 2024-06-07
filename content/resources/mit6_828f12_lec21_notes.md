@@ -3,6 +3,7 @@ content_type: resource
 description: This file contains the information regarding Operating System Engineering,
   Lecture 21.
 file: /courses/6-828-operating-system-engineering-fall-2012/d8d03983cf031d08000ac92e1ddc395e_MIT6_828F12_lec21_notes.pdf
+file_size: 549303
 file_type: application/pdf
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
