@@ -2,6 +2,7 @@
 content_type: resource
 description: This is the special file regarding barrier c.
 file: /courses/6-828-operating-system-engineering-fall-2012/c49eb63787386204777154c775ae9e00_barrier.c
+file_size: 1301
 file_type: text/x-csrc
 learning_resource_types:
 - Assignments
