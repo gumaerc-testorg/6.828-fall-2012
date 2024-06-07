@@ -2,6 +2,7 @@
 content_type: resource
 description: This is the special file regarding Pointers c.
 file: /courses/6-828-operating-system-engineering-fall-2012/ac0415d7b04dfa0e4caed03ddf95e45d_lab4.tar.gz
+file_size: 917678
 file_type: application/x-tar
 learning_resource_types:
 - Labs
