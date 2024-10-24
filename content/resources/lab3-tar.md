@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is the special file regarding lab 3.
-file: /courses/6-828-operating-system-engineering-fall-2012/09f4f75948eba76842f0368be826d84c_lab3.tar.gz
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/09f4f75948eba76842f0368be826d84c_lab3.tar.gz
 file_size: 892215
 file_type: application/x-tar
 learning_resource_types:
