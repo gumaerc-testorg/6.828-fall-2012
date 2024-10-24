@@ -2,7 +2,7 @@
 content_type: resource
 description: This file contains the information regarding Operating System Engineering,
   Inode Diagram.
-file: /courses/6-828-operating-system-engineering-fall-2012/f68fc8018653a15b7921c9076a314ef6_MIT6_828F12_inode.pdf
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/f68fc8018653a15b7921c9076a314ef6_MIT6_828F12_inode.pdf
 file_size: 51132
 file_type: application/pdf
 learning_resource_types:
