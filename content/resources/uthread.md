@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is the special file regarding uthread c.
-file: /courses/6-828-operating-system-engineering-fall-2012/1fa5a4ce8a9761deb154ab3fcc584e54_uthread.c
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/1fa5a4ce8a9761deb154ab3fcc584e54_uthread.c
 file_size: 2417
 file_type: text/x-csrc
 learning_resource_types:
