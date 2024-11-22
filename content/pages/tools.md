@@ -126,7 +126,7 @@ Linked ELF images of the kernel and user programs. These contain symbol informat
 
 ### GDB
 
-See the [GDB manual](http://sourceware.org/gdb/current/onlinedocs/gdb/) for a full guide to GDB commands. Here are some particularly useful commands for 6.828, some of which don't typically come up outside of OS development.
+See the [GDB manual](https://sourceware.org/gdb/current/onlinedocs/gdb.html/) for a full guide to GDB commands. Here are some particularly useful commands for 6.828, some of which don't typically come up outside of OS development.
 
 Ctrl-c
 
