@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is the special file regarding ph c.
-file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/c64423ee4f7cb70c4f7788675a5320c2_ph.c
+file: /courses/6-828-operating-system-engineering-fall-2012/c64423ee4f7cb70c4f7788675a5320c2_ph.c
 file_size: 2562
 file_type: text/x-csrc
 learning_resource_types:
