@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is the special file regarding Pointers c.
-file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/6d944fbc5b6f1609091d59bcfa9dea24_pointers.c
+file: /courses/6-828-operating-system-engineering-fall-2012/6d944fbc5b6f1609091d59bcfa9dea24_pointers.c
 file_size: 908
 file_type: text/x-csrc
 learning_resource_types:
