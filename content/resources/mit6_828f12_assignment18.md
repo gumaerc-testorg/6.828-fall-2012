@@ -2,7 +2,7 @@
 content_type: resource
 description: This file contains the information regarding Operating System Engineering,
   Assignment 18.
-file: /courses/6-828-operating-system-engineering-fall-2012/4e7ede281c1d4b17ead4d34e882e54be_MIT6_828F12_assignment18.pdf
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/4e7ede281c1d4b17ead4d34e882e54be_MIT6_828F12_assignment18.pdf
 file_size: 48236
 file_type: application/pdf
 learning_resource_types:

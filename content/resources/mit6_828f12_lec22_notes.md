@@ -2,7 +2,7 @@
 content_type: resource
 description: This file contains the information regarding Operating System Engineering,
   Lecture 22.
-file: /courses/6-828-operating-system-engineering-fall-2012/8570fc988e9020ad0689a6aa380792bb_MIT6_828F12_lec22_notes.pdf
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/8570fc988e9020ad0689a6aa380792bb_MIT6_828F12_lec22_notes.pdf
 file_size: 547505
 file_type: application/pdf
 learning_resource_types: []
