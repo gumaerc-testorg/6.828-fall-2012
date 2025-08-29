@@ -5,7 +5,7 @@ file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/3c
 file_size: 873679
 file_type: application/x-tar
 learning_resource_types:
-- Labs
+- Laboratory Assignments
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Labs
