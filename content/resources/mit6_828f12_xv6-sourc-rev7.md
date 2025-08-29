@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This file contains the information regarding xv6 Source.
-file: /courses/6-828-operating-system-engineering-fall-2012/dccce9be65c1ba7f80a5bb0c6d585ca7_MIT6_828F12_xv6-sourc-rev7.pdf
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/dccce9be65c1ba7f80a5bb0c6d585ca7_MIT6_828F12_xv6-sourc-rev7.pdf
 file_size: 477204
 file_type: application/pdf
 learning_resource_types: []

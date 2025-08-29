@@ -2,7 +2,7 @@
 content_type: resource
 description: This file contains the information regarding Operating System Engineering,
   Lecture 3.
-file: /courses/6-828-operating-system-engineering-fall-2012/ecc911a7b40e9babb1c02f9e8ae37e1b_MIT6_828F12_lec3_notes.pdf
+file: /ol-ocw-studio-app/courses/6-828-operating-system-engineering-fall-2012/ecc911a7b40e9babb1c02f9e8ae37e1b_MIT6_828F12_lec3_notes.pdf
 file_size: 538997
 file_type: application/pdf
 learning_resource_types: []
