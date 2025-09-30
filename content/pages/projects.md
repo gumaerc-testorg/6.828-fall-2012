@@ -42,25 +42,25 @@ Ideas
 Here's a list of ideas to get you started thinking—but you should feel free to pursue your own ideas.
 
 *   Build a virtual machine monitor that can run multiple guests (for example, multiple instances of JOS), using x86 VM support.
-*   Do something useful with the x86 Trusted Execution Technology. For example, run applications without having to trust the kernel. [Here (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-51.pdf) is a recent paper on this topic.
+*   Do something useful with the x86 Trusted Execution Technology. For example, run applications without having to trust the kernel. {{% resource_link "5cf2f8cf-176b-4a98-9f12-8bba84867752" "Here (PDF)" %}} is a recent paper on this topic.
 *   Fix xv6 logging to support concurrent transactions, and generally have higher performance, perhaps taking ideas from Linux EXT3.
-*   Use file system ideas from [Soft updates (PDF)](http://www.ece.cmu.edu/~ganger/papers/osdi94.pdf), WAFL, ZFS, or another advanced file system.
+*   Use file system ideas from {{% resource_link "64cd6375-7e0c-4f9d-850e-0e4c747d631f" "Soft updates (PDF)" %}}, WAFL, ZFS, or another advanced file system.
 *   Add snapshots to a file system, so that a user can look at the file system as it appeared at various points in the past. You'll probably want to use some kind of copy-on-write for disk storage to keep space consumption down.
-*   Implement [capabilities (PDF)](http://pdos.csail.mit.edu/6.828/2012/readings/mazieres-hotos6.pdf) to provide fine-grained control over what privileges processes have.
-*   Build a [distributed shared memory (PDF)](http://www.cise.ufl.edu/~nemo/cop5615/chow/ch7.pdf) (DSM) system, so that you can run multi-threaded shared memory parallel programs on a cluster of machines, using paging to give the appearance of real shared memory. When a thread tries to access a page that's on another machine, the page fault will give the DSM system a chance to fetch the page over the network from whatever machine currently stores.
-*   Layer software [RAID-5 (PDF)](http://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) over an array of disks, to increase fault tolerance and performance.
+*   Implement {{% resource_link "43cb8a8e-abec-41e7-8c99-429b6ca3db12" "capabilities (PDF)" %}} to provide fine-grained control over what privileges processes have.
+*   Build a {{% resource_link "9b1ab0ae-32b2-4972-ba89-bdb2de65bffa" "distributed shared memory (PDF)" %}} (DSM) system, so that you can run multi-threaded shared memory parallel programs on a cluster of machines, using paging to give the appearance of real shared memory. When a thread tries to access a page that's on another machine, the page fault will give the DSM system a chance to fetch the page over the network from whatever machine currently stores.
+*   Layer software {{% resource_link "a5156729-6bdf-4116-b8ed-f30c6cbff6bb" "RAID-5 (PDF)" %}} over an array of disks, to increase fault tolerance and performance.
 *   Allow processes to migrate from one machine to another over the network. You'll need to do something about the various pieces of a process's state, such as file descriptors in xv6.
 *   Implement paging to disk in xv6 or JOS, so that processes can be bigger than RAM. Extend your pager with swapping.
 *   Implement mmap() of files for JOS or xv6.
 *   Implement loadable kernel modules to extend the xv6 kernel to replace or extend subsystems of the xv6 kernel. For example, make the file system a kernel module so that you can add a kernel module to read DOS file systems, or replace the xv6 file system.
-*   Use [xfi](http://static.usenix.org/event/osdi06/tech/erlingsson.html) to sandbox code within a process.
+*   Use {{% resource_link "79fcbaa8-0ec1-47ba-b0cc-740284d55117" "xfi" %}} to sandbox code within a process.
 *   Support x86 2MB or 4MB pages.
 *   Modify xv6 to have kernel-supported threads inside processes. See in-class uthread assignment to get started. Implementing scheduler activations would be one way to do this project.
 *   Implement ideas from the Exokernel papers, for example the packet filter.
 *   Make JOS or xv6 have soft real-time behavior. You will have to identify some application for which this is useful.
 *   Make JOS or xv6 run on 64-bit CPUs. This includes redoing the virtual memory system to use 4–level pages tables. See reference page for some documentation.
-*   Port JOS or xv6 to a different microprocessor. The [osdev wiki](http://wiki.osdev.org/Main_Page) may be helpful.
+*   Port JOS or xv6 to a different microprocessor. The {{% resource_link "2d8411d9-a6f2-4570-b03d-ca90b3116670" "osdev wiki" %}} may be helpful.
 *   A window system for xv6 or JOS, including graphics driver and mouse. See reference page for some documentation.
-*   Implement [dune (PDF)](http://www.usenix.org/system/files/conference/osdi12/osdi12-final-117.pdf) to export privileged hardware instructions to user-space applications in JOS or xv6.
+*   Implement {{% resource_link "3915ec52-cb88-4555-b62b-934f6d5cbb8a" "dune (PDF)" %}} to export privileged hardware instructions to user-space applications in JOS or xv6.
 *   The linux kernel uses read copy update to be able to perform read operations without holding locks. Explore RCU by implementing it in xv6 and use it to support a name cache with lock-free reads
 *   Intel recently announced for its upcoming processors. Implement support for Intel's Transactional Synchronization Extensions in the QEMU emulator. A follow-on project would be to explore the use of Intel TSX primitives in writing concurrent software, such as extending a small multi-core operating system (based on 6.828's xv6) to use transactional memory.
