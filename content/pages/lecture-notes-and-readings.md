@@ -166,7 +166,7 @@ Read log.c and the logging sections of "Chapter 6: File system"
 {{% resource_link 6976b258-b566-bd5d-ebf4-a4469cf36ed9 "File System Performance and Fast Crash Recovery (PDF)" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-Tweedie, Stephen C. "[Journaling the Linux ext2fs Filesystem](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.307.9137)." \[Paper Presented at LinuxExpo 1998\].
+Tweedie, Stephen C. "{{% resource_link "8aee0335-28e8-4085-a400-0cfd67e3866d" "Journaling the Linux ext2fs Filesystem" %}}." \[Paper Presented at LinuxExpo 1998\].
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -190,7 +190,7 @@ Project Introduction and Discussion
 {{% resource_link 8513bdcc-f925-3ca1-eb98-252d67481db3 "OS Organization (PDF)" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-Engler, Dawson R., M. Frans Kaashoek, and James O'Toole Jr. "[Exokernel: An Operating System Architecture for Application-Level Resource Management](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.2893)."
+Engler, Dawson R., M. Frans Kaashoek, and James O'Toole Jr. "{{% resource_link "3e507fe6-67c2-45ec-9a51-d15ee8568201" "Exokernel: An Operating System Architecture for Application-Level Resource Management" %}}."
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -238,7 +238,7 @@ Project Conferences (cont.)
 {{% resource_link a83f1d0b-7b78-7d79-8801-a85e26057961 "Language / OS Co-design (PDF)" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-Hunt, Galen C., and James R. Larus. "[Singularity: Rethinking the Software Stack](http://dx.doi.org/10.1145/1243418.1243424)." _Microsoft Research Redmond_ 41, no. 2 (2007): 37–49.
+Hunt, Galen C., and James R. Larus. "{{% resource_link "9f90c782-7a94-4929-b0e7-060d07d184d3" "Singularity: Rethinking the Software Stack" %}}." _Microsoft Research Redmond_ 41, no. 2 (2007): 37–49.
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -262,7 +262,7 @@ Quiz (Open Book and Notes)
 {{% resource_link 61aeb500-c947-c106-349f-e64a58af954f "Scalable Locks (PDF)" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-Boyd-Wickizer, Silas, M. Frans Kaashoek, et al. "[Non-Scalable Locks are Dangerous](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.261.196)."
+Boyd-Wickizer, Silas, M. Frans Kaashoek, et al. "{{% resource_link "f8609be3-16d7-4db1-a754-6b154c8024aa" "Non-Scalable Locks are Dangerous" %}}."
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -286,7 +286,7 @@ Project Conferences
 Project Conferences (cont.)
 {{< tdclose >}}
 {{< tdopen >}}
-Boyd-Wickizer, Silas, Austin T. Clements, et al. "[An Analysis of Linux Scalability to Many Cores](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.174.5191)."
+Boyd-Wickizer, Silas, Austin T. Clements, et al. "{{% resource_link "d8af59a5-5195-4e77-bdc6-1e7f024b1a09" "An Analysis of Linux Scalability to Many Cores" %}}."
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -310,7 +310,7 @@ Boyd-Wickizer, Silas, Austin T. Clements, et al. "[An Analysis of Linux Scalabil
 {{% resource_link 8570fc98-8e90-20ad-0689-a6aa380792bb "Virtual Machines (PDF)" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-Adams, Keith, and Ole Agesen. "[A Comparison of Software and Hardware Techniques for x86 Virtualization](http://dx.doi.org/10.1145/1168857.1168860)." _ACM Digital Library_ 34, no. 5 (2006): 2–13.
+Adams, Keith, and Ole Agesen. "{{% resource_link "d8762fab-092f-4e22-b22d-0a67b03075a0" "A Comparison of Software and Hardware Techniques for x86 Virtualization" %}}." _ACM Digital Library_ 34, no. 5 (2006): 2–13.
 {{< tdclose >}}
 
 {{< trclose >}}
