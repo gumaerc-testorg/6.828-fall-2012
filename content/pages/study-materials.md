@@ -27,7 +27,7 @@ We also distribute the sources as a printed booklet with line numbers that keep 
 
 git checkout -b xv6-rev7 xv6-rev7
 
-The xv6 source code is licensed under the traditional {{% resource_link "852e1a40-0268-4c48-b6c5-1ebd9bfda918" "MIT license" %}}; see the LICENSE file in the source distribution. To help students read through xv6 and learn about the main ideas in operating systems we also distribute a textbook / commentary for the latest xv6, available in the lecture notes section. The line numbers in this book refer to the above source booklet.
+The xv6 source code is licensed under the traditional [MIT license](http://www.opensource.org/licenses/mit-license.php); see the LICENSE file in the source distribution. To help students read through xv6 and learn about the main ideas in operating systems we also distribute a textbook / commentary for the latest xv6, available in the lecture notes section. The line numbers in this book refer to the above source booklet.
 
 xv6 compiles using the GNU C compiler, targeted at the x86 using ELF binaries. On BSD and Linux systems, you can use the native compilers; On OS X, which doesn't use ELF binaries, you must use a cross-compiler. Xv6 does boot on real hardware, but typically we run it using the QEMU emulator. Both the GCC cross compiler and QEMU can be found on the 6.828 tools page.
 
@@ -40,8 +40,8 @@ In 6.828, the lectures in the first half of the course cover the xv6 sources and
 6.828's xv6 is inspired by Unix V6 and by:
 
 - Lions, John. _Lions' Commentary on UNIX_. 6th ed. Peer to Peer Communications, 1977. ISBN: 9781573980135.
-    - An on-line version of the {{% resource_link "964f4db4-7d52-47ae-ad61-7a0db279f04d" "Lions commentary" %}}, and {{% resource_link "ab7747d3-75bb-4bc1-8e98-9c5581f9ccfb" "the source code" %}}.
-    - The v6 source code is also available {{% resource_link "df8d29d7-7fd5-4776-bb09-34ca44723f87" "online" %}} through {{% resource_link "e92eddc8-ed79-4dec-a7dd-5e3617c70f3d" "the PDP Unix Preservation Society" %}}.
+    - An on-line version of the [Lions commentary](http://www.lemis.com/grog/Documentation/Lions/), and [the source code](http://v6.cuzuco.com/).
+    - The v6 source code is also available [online](http://minnie.tuhs.org/UnixTree/V6/usr/sys/) through [the PDP Unix Preservation Society](http://minnie.tuhs.org/PUPS/).
 
 The following are useful to read the original code:
 
