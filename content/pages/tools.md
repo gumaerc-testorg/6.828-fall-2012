@@ -12,7 +12,7 @@ uid: 477797a1-9d40-9368-3d20-82c8affc2b08
 
 If you would like to compile and run the tools on your own machine, here is the information you need. We cannot guarantee that these tools will run on your computer, but they should run on recent versions of Linux.
 
-It should be possible to get this development environment running under windows with the help of {{% resource_link "c1a75584-fa62-4ebb-ae44-af450b65e1fa" "Cygwin" %}}. Install cygwin, and be sure to install the flex and bison packages (they are under the development header).
+It should be possible to get this development environment running under windows with the help of [Cygwin](http://www.cygwin.com/). Install cygwin, and be sure to install the flex and bison packages (they are under the development header).
 
 For an overview of useful commands in the tools used in 6.828, see the lab tools guide below.
 
@@ -24,9 +24,9 @@ GCCPREFIX=
 
 If you are using something other than standard x86 Linux or BSD, you will need the GNU C compiler toolchain, configured and built as a cross-compiler for the target 'i386-jos-elf', as well as the GNU debugger, configured for the i386-jos-elf toolchain. You can download the specific versions we used via these links, although any recent versions of gcc, binutils, and GDB should work:
 
-- {{% resource_link "027f9a76-5fa8-4364-b42b-2f82d1d8265c" "http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2" %}}
-- {{% resource_link "4c680bec-722a-4bbd-a4f9-ffb761130706" "http://ftpmirror.gnu.org/gcc/gcc-4.5.1/gcc-core-4.5.1.tar.bz2" %}}
-- {{% resource_link "832616d1-d6d1-45b7-8f25-36c199e9d95e" "http://ftpmirror.gnu.org/gdb/gdb-6.8a.tar.gz" %}}
+- [http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2](http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2)
+- [http://ftpmirror.gnu.org/gcc/gcc-4.5.1/gcc-core-4.5.1.tar.bz2](http://ftpmirror.gnu.org/gcc/gcc-4.5.1/gcc-core-4.5.1.tar.bz2)
+- [http://ftpmirror.gnu.org/gdb/gdb-6.8a.tar.gz](http://ftpmirror.gnu.org/gdb/gdb-6.8a.tar.gz)
 
 Once you've unpacked these archives, run the following commands as root:
 
@@ -36,7 +36,7 @@ Then you'll have in /usr/local/bin a bunch of binaries with names like i386-jos-
 
 ### QEMU Emulator
 
-{{% resource_link "236bcc97-13e2-4500-951c-c040ea6c142e" "QEMU" %}} is a modern and fast PC emulator.
+[QEMU](http://wiki.qemu.org/Index.html) is a modern and fast PC emulator.
 
 ## 6.828 Lab Tools Guide
 
@@ -126,7 +126,7 @@ Linked ELF images of the kernel and user programs. These contain symbol informat
 
 ### GDB
 
-See the {{% resource_link "070fda64-c274-45c4-bbd9-3e638ea8b8b1" "GDB manual" %}} for a full guide to GDB commands. Here are some particularly useful commands for 6.828, some of which don't typically come up outside of OS development.
+See the [GDB manual](https://sourceware.org/gdb/current/onlinedocs/gdb.html/) for a full guide to GDB commands. Here are some particularly useful commands for 6.828, some of which don't typically come up outside of OS development.
 
 Ctrl-c
 
@@ -182,7 +182,7 @@ List all threads (i.e., CPUs), including their state (active or halted) and what
 
 QEMU includes a built-in monitor that can inspect and modify the machine state in useful ways. To enter the monitor, press Ctrl-a c in the terminal running QEMU. Press Ctrl-a c again to switch back to the serial console.
 
-For a complete reference to the monitor commands, see the {{% resource_link "7c80f8f3-4c21-4eab-88af-a487c703ad93" "QEMU manual" %}}. Here are some particularly useful commands:
+For a complete reference to the monitor commands, see the [QEMU manual](https://www.qemu.org/documentation/). Here are some particularly useful commands:
 
 xp / Nx *paddr*
 
